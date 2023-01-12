@@ -1,0 +1,47 @@
+{
+  "name": "John Doe",
+  "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam culpa quasi sit ipsa eveniet nemo odio at eligendi earum veritatis!",
+  "image": "cool_neko.webp",
+  "background": "#f5f5f5",
+  "website": "link-z.vercel.app",
+  "footer": {
+    "display": true,
+    "text": "Your footer text goes here"
+  },
+  "contacts": {
+    "display": true,
+    "items": [
+      { "label": "Mail", "url": "mailto:yourmailaddress@mail.com" },
+      { "label": "Messenger", "url": "https://www.messenger.com" },
+      { "label": "Whatsapp", "url": "https://www.whatsapp.com" },
+      { "label": "Telegram", "url": "https://www.telegram.com" },
+      { "label": "Skype", "url": "https://www.skype.com" },
+      { "label": "Viber", "url": "https://www.viber.com" }
+    ]
+  },
+  "socials": {
+    "display": true,
+    "items": [
+      { "label": "Twitter", "url": "https://www.twitter.com" },
+      { "label": "Discord", "url": "https://www.discord.com" },
+      { "label": "Github", "url": "https://www.github.com" },
+      { "label": "Facebook", "url": "https://www.facebook.com" },
+      { "label": "Instagram", "url": "https://www.instagram.com" },
+      { "label": "Tiktok", "url": "https://www.tiktok.com" },
+      { "label": "Linkedin", "url": "https://www.linkedin.com" },
+      { "label": "Steam", "url": "https://www.steam.com" },
+      { "label": "Youtube", "url": "https://www.youtube.com" },
+      { "label": "Dribble", "url": "https://www.dribble.com" },
+      { "label": "Snapchat", "url": "https://www.snapchat.com" },
+      { "label": "Tumblr", "url": "https://www.tumblr.com" },
+      { "label": "Pinterest", "url": "https://www.pinterest.com" },
+      { "label": "Reddit", "url": "https://www.reddit.com" },
+      { "label": "Spotify", "url": "https://www.spotify.com" },
+      { "label": "Xbox", "url": "https://www.xbox.com" },
+      { "label": "Playstation", "url": "https://www.playstation.com" },
+      { "label": "Twitch", "url": "https://www.twitch.com" },
+      { "label": "Stackoverflow", "url": "https://www.stackoverflow.com" },
+      { "label": "Slack", "url": "https://www.slack.com" }
+    ]
+  }
+}

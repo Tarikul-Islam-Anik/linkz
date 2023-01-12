@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Linkz
+
+Just a Linktree clone, but simpler and, most importantly, with your own social media reference landing page. Just add your links in `data/data.json` and you're good to go!
+
+> Note: This is the basic version of Linkz. Lacks some features but can be easily extended as per your needs. I'm working on a extended version of Linkz with more features.
+
+**Demo:** [link-z.vercel.app/](https://link-z.vercel.app/)
+
+- **Framework**: [Next.js](https://nextjs.org/) (version 13)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 
 ## Getting Started
 
-First, run the development server:
+- Clone/Fork the repo
+- Install dependencies
+
+```bash
+npm install
+```
+
+- Add your links in `data/data.json`. [Explaination](#explaination)
+- Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Explaination
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- `data/data.json` file will look like this.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Fill in the details as per your needs.
+- Add your image in the `public` directory and add the image name in the `image` field with the extension. (eg: `image: "image.png"`, `image: "image.jpg"`).
+- The `background` field is for adding a background color.
+- The display fields are for showing/hiding the footer, socials and contacts section. If you don't want to show the section, just set the `display` field to `false`.
+- Add the `label` and `url` for each item. Like this:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```json
+{
+  "label": "Twitter",
+  "url": "https://twitter.com/username"
+},
+{
+  "label": "Github",
+  "url": "hhttps://github.com/username"
+}
+....
+```
+> Note: There's a few social icons I've included. If you want to add more, just add the logo in the `components/icons` file and add the `label` and `url` in the `data.json` file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployment
 
-## Learn More
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+**If you stuck somewhere, feel free to open an issue or contact me directly. I'll be happy to help.**
