@@ -12,6 +12,7 @@ export default function UserInfo() {
       <a
         href={'https://' + data.website}
         target="_blank"
+        rel="noreferrer"
         className="flex items-center justify-center tracking-wide text-stone-400 transition hover:text-stone-500"
       >
         {data.website}
