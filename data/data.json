@@ -1,9 +1,20 @@
 {
-  "name": "John Doe",
+  "name": "Zenitsu Agatsuma",
   "bio": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam culpa quasi sit ipsa eveniet nemo odio at eligendi earum veritatis!",
-  "image": "cool_neko.webp",
+  "images": {
+    "avatar": "avatar.png",
+    "banner": "banner.webp",
+    "hover_change": true,
+    "onHover_avatar": "animated_avatar.gif"
+  },
   "background": "#f5f5f5",
+  "location": "New York, USA",
   "website": "link-z.vercel.app",
+  "site_url": "https://link-z.vercel.app",
+  "buttons": {
+    "display": true,
+    "items": [{"label": "Message"},{"label": "Follow"},{"label": "Posts"}]
+  },
   "footer": {
     "display": true,
     "text": "Your footer text goes here"
@@ -29,19 +40,52 @@
       { "label": "Instagram", "url": "https://www.instagram.com" },
       { "label": "Tiktok", "url": "https://www.tiktok.com" },
       { "label": "Linkedin", "url": "https://www.linkedin.com" },
-      { "label": "Steam", "url": "https://www.steam.com" },
       { "label": "Youtube", "url": "https://www.youtube.com" },
-      { "label": "Dribble", "url": "https://www.dribble.com" },
       { "label": "Snapchat", "url": "https://www.snapchat.com" },
       { "label": "Tumblr", "url": "https://www.tumblr.com" },
       { "label": "Pinterest", "url": "https://www.pinterest.com" },
       { "label": "Reddit", "url": "https://www.reddit.com" },
       { "label": "Spotify", "url": "https://www.spotify.com" },
+      { "label": "Stackoverflow", "url": "https://www.stackoverflow.com" },
+      { "label": "Slack", "url": "https://www.slack.com" },
+      { "label": "Amazon", "url": "https://www.amazon.com" }
+    ]
+  },
+  "designs": {
+    "display": true,
+    "items": [
+      { "label": "Behance", "url": "https://www.behance.com" },
+      { "label": "Dribble", "url": "https://www.dribble.com" },
+      { "label": "Figma", "url": "https://www.figma.com" }
+    ]
+  },
+  "wallets": {
+    "display": true,
+    "items": [
+      { "label": "Paypal", "url": "https://www.paypal.com" },
+      { "label": "Venmo", "url": "https://www.venmo.com" },
+      { "label": "Cashapp", "url": "https://www.cashapp.com" },
+      { "label": "Bitcoin", "url": "https://www.bitcoin.com" },
+      { "label": "Ethereum", "url": "https://www.ethereum.com" }
+    ]
+  },
+  "gaming_profiles": {
+    "display": true,
+    "items": [
+      { "label": "Steam", "url": "https://www.steam.com" },
+      { "label": "Epic Games", "url": "https://www.epicgames.com" },
+      { "label": "Origin", "url": "https://www.origin.com" },
+      { "label": "Battle.net", "url": "https://www.battle.net" },
+      { "label": "Uplay", "url": "https://www.uplay.com" },
       { "label": "Xbox", "url": "https://www.xbox.com" },
       { "label": "Playstation", "url": "https://www.playstation.com" },
-      { "label": "Twitch", "url": "https://www.twitch.com" },
-      { "label": "Stackoverflow", "url": "https://www.stackoverflow.com" },
-      { "label": "Slack", "url": "https://www.slack.com" }
+      { "label": "Twitch", "url": "https://www.twitch.com" }
     ]
+  },
+  "qna": {
+    "display": true,
+    "GISCUS_REPO":"",
+    "GISCUS_REPO_ID":"",
+    "GISCUS_CATEGORY_ID":""
   }
 }
