@@ -10,6 +10,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
+    "@giscus/react": "^2.2.6",
     "@next/font": "13.1.1",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
@@ -21,6 +22,9 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swr": "^2.0.0",
+    "twitter-avatar-url": "^2.2.0",
+    "twitter-profile-media": "^2.0.6",
+    "twitter-tokens": "^1.0.3",
     "typescript": "4.9.4"
   },
   "devDependencies": {
