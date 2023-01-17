@@ -46,6 +46,7 @@ npm run dev
 }
 ....
 ```
+
 > Note: There's a few social icons I've included. If you want to add more, just add the logo in the `components/icons` file and add the `label` and `url` in the `data.json` file.
 
 ## Deployment
