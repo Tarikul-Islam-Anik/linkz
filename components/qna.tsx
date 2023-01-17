@@ -20,7 +20,6 @@ export default function QNA({ GISCUS_REPO, GISCUS_REPO_ID, GISCUS_CATEGORY_ID })
         theme="light"
         lang="en"
         loading="lazy"
-        crossorigin="anonymous"
       />
     )
   }, [])
