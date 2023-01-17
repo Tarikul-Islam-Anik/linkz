@@ -12,7 +12,7 @@ export default function QNA({ GISCUS_REPO, GISCUS_REPO_ID, GISCUS_CATEGORY_ID })
         repoId={GISCUS_REPO_ID}
         categoryId={GISCUS_CATEGORY_ID}
         category={'Comments'}
-        mapping="slug"
+        mapping="title"
         strict="1"
         reactions-enabled="1"
         emit-metadata="0"
