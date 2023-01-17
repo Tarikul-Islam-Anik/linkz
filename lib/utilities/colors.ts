@@ -1,5 +1,6 @@
 export default function Color(label) {
-  switch (label.toLowerCase()) {
+  const name = label.replace('.', '').split(' ').join('').toLowerCase()
+  switch (name) {
     case 'facebook':
       return '#5c79ff'
     case 'twitter':
@@ -52,7 +53,30 @@ export default function Color(label) {
       return '#481449'
     case 'telegram':
       return '#0084c6'
-
+    case 'amazon':
+      return '#232f3e'
+    case 'behance':
+      return '#1666f7'
+    case 'figma':
+      return '#f24e1e'
+    case 'epicgames':
+      return '#000000'
+    case 'origin':
+      return '#e95722'
+    case 'uplay':
+      return '#2a9df4'
+    case 'battlenet':
+      return '#0a84ff'
+    case 'paypal':
+      return '#1596d0'
+    case 'cashapp':
+      return '#00d000'
+    case 'venmo':
+      return '#3d95ce'
+    case 'bitcoin':
+      return '#f7931a'
+    case 'ethereum':
+      return '#3c3c3d'
     default:
       return null
   }
