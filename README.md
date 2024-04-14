@@ -42,7 +42,7 @@ npm run dev
 },
 {
   "label": "Github",
-  "url": "hhttps://github.com/username"
+  "url": "https://github.com/username"
 }
 ....
 ```
